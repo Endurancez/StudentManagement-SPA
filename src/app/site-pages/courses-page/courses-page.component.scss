@@ -1,0 +1,14 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid var(--blue-actve);
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--blue-actve);
+
+  &.primary {
+    background-color: var(--blue-actve);
+    color: #fff;
+  }
+}

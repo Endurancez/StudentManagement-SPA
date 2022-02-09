@@ -1,0 +1,29 @@
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding: 12px;
+  box-shadow: 1px 0px 5px rgb(185 185 185 / 50%);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    transition: color .3s ease-in-out, background-color .5s ease-in-out;
+
+    &:hover, &.active {
+      background-color: var(--blue-actve);
+      color: #fff;
+    }
+  }
+}

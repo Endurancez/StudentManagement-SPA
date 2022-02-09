@@ -1,0 +1,36 @@
+.table-scroll {
+  overflow-x: scroll;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead {
+  tr {
+    th {
+      padding: 8px 12px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: var(--scris-albastru);
+    }
+  }
+}
+
+
+tbody {
+  tr {
+    border-bottom: 1px solid #ececec;
+
+    &:last-child {
+      border: none;
+    }
+
+    td {
+      padding: 8px 12px;
+      color: var(--scris-albastru);
+    }
+  }
+}
